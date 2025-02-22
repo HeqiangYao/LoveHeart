@@ -1,0 +1,18 @@
+<Window
+    Height="50"
+    Icon="/Assets/avalonia-logo.ico"
+    Title="爱心攻击"
+    Width="50"
+    WindowStartupLocation="CenterScreen"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d"
+    x:Class="爱心攻击.Views.MainWindow"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:views="clr-namespace:爱心攻击.Views"
+    xmlns:vm="using:爱心攻击.ViewModels"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <views:MainView />
+</Window>
